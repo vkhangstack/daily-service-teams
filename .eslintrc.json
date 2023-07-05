@@ -1,0 +1,68 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "standard-with-typescript",
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "prettier"
+  ],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "project": ["./tsconfig.json"]
+  },
+  "plugins": ["react", "@typescript-eslint"],
+  "rules": {
+    "quotes": 0,
+    "no-console": 1,
+    "no-debugger": 1,
+    "no-var": 1,
+    "no-trailing-spaces": 0,
+    "eol-last": 0,
+    "no-underscore-dangle": 0,
+    "no-alert": 0,
+    "no-lone-blocks": 0,
+    "import/no-named-as-default": 0,
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true
+      }
+    ],
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [".jsx", ".tsx"]
+      }
+    ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    },
+    "react": {
+      "version": "detect"
+    }
+  }
+}
