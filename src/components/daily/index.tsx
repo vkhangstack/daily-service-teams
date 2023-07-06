@@ -1,5 +1,5 @@
 import { Col, Layout, Row, Space, Table } from 'antd';
-import type { FilterValue, SorterResult, TableCurrentDataSource } from 'antd/es/table/interface';
+import type { FilterValue, SorterResult } from 'antd/es/table/interface';
 import type { ColumnsType, TablePaginationConfig } from 'antd/es/table';
 import { FunctionComponent, useEffect, useState } from 'react';
 import qs from 'qs';
