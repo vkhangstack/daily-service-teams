@@ -17,9 +17,11 @@
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "antd": "^5.1.2",
+    "axios": "^1.4.0",
     "firebase": "^9.23.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-fast-marquee": "^1.6.0",
     "react-router-dom": "^6.6.1",
     "tailwindcss": "^3.3.2",
     "umi-request": "^1.4.0",
@@ -27,6 +29,7 @@
   },
   "devDependencies": {
     "@types/node": "^18.11.18",
+    "@types/qs": "^6.9.7",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
     "@vitejs/plugin-react-swc": "^3.0.0",
